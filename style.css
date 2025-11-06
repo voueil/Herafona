@@ -1,0 +1,98 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  direction: ltr;
+  background: #f8f4ec;
+  margin: 0;
+}
+
+header {
+  background: #17431f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#search {
+  text-align: center;
+  padding: 15px;
+}
+#search input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 6px;
+  border: 1px solid #b9b29e;
+}
+#search button {
+  padding: 10px 15px;
+  background: #c28c2b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#workshops {
+  padding: 20px;
+}
+.workshop-card {
+  background: #fff;
+  border: 1px solid #d4c7b2;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.workshop-card button {
+  background: #17431f;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#bookingForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #c7bfa9;
+  width: 320px;
+  z-index: 1001;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+#bookingForm.hidden { display: none; }
+
+#bookingForm label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#bookingForm input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #b9b29e;
+}
+#bookingForm input[readonly] {
+  background: #eee;
+  color: #555;
+  cursor: default;
+}
+#bookingForm button {
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #17431f;
+  color: white;
+}
+.cancel {
+  background: #c23c2b !important;
+  color: white;
+}
