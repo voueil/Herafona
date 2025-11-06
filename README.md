@@ -3,7 +3,6 @@ Herafona is a web platform that allows users to explore and book traditional Sau
 
 ## Folder Structure
 Herafona/
-│
 ├── index.html        
 ├── style.css         
 ├── app.js            
