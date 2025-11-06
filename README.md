@@ -1,16 +1,6 @@
 # Herafona
 Herafona is a web platform that allows users to explore and book traditional Saudi craft workshops, connecting them with local artisans while preserving Saudi heritage
 
-## Folder Structure
-
-Herafona/
-│
-├── index.html
-├── style.css
-├── app.js
-└── package.json
-    
-
 ## Pages Overview
 | Section | Description |
 |----------|-------------|
